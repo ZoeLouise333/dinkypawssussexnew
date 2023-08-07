@@ -1,0 +1,140 @@
+.masonry__padding {
+  padding: 10px 20px;
+}
+.masonry {
+  columns: 4;
+  column-gap: 16px;
+}
+
+@media (max-width: 1200px) {
+  .masonry {
+    columns: 3;
+  }
+}
+@media (max-width: 992px) {
+  .masonry {
+    columns: 2;
+  }
+}
+@media (max-width: 768px) {
+  .masonry {
+    columns: 1;
+  }
+}
+.containerbg {
+  background-color: #455763;
+}
+.grid {
+  margin-bottom: 16px;
+  position: relative;
+  cursor: pointer;
+}
+
+.mt-auto {
+  margin-top: auto;
+}
+
+.grid:before {
+  border-radius: 5px;
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+img {
+  width: 100%;
+  border-radius: 0px;
+}
+.grid__title {
+  font-size: 28px;
+  font-weight: bold;
+  margin: 0px 0px 10px 0px;
+}
+.grid__author {
+  font-size: 14px;
+  font-weight: 300;
+}
+.grid__link {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+.grid__body {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  padding: 30px 30px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+.grid__tag {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #333;
+  border-radius: 5px;
+  padding: 5px 15px;
+  margin-bottom: 5px;
+}
+
+.lightbox {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  background-color: rgba(0, 0, 0, 0.9);
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lightbox .image {
+  max-height: 80%;
+  max-width: 80%;
+  width: auto;
+  position: absolute;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.lightbox a {
+  font-family: "slick";
+  text-decoration: none;
+  font-size: 40px;
+  color: #fff;
+  margin-right: 10px;
+  position: fixed;
+  top: 50%;
+  left: 30px;
+  transform: translateY(-50%);
+}
+
+.lightbox a:last-child {
+  transform: rotate(-180deg) translateY(-50%);
+  margin-right: 0px;
+  margin-left: 10px;
+  left: auto;
+  right: 30px;
+}
+
+.closeButton {
+  position: fixed;
+  display: block;
+  top: 40px !important;
+  right: 7px;
+  left: auto !important;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 800px) {
+  .lightbox {
+    display: none !important;
+  }
+}
