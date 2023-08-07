@@ -1,0 +1,192 @@
+.aboutMe {
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: row;
+}
+.container-about {
+  margin-bottom: 60px;
+}
+
+.aboutMe__size--image1 {
+  max-width: 500px;
+  flex: 1;
+  height: 500px;
+  background-image: url("./images/me.png");
+  background-size: cover;
+  background-position: center;
+  margin-left: auto;
+  margin-right: auto;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 70px;
+  margin-top: 150px;
+  border-radius: 50%;
+}
+.aboutMe__size--image2 {
+  max-width: 900px;
+  flex: 1;
+  height: 570px;
+  background-image: url("./images/me5.jpg");
+  background-size: cover;
+  background-position: center;
+  margin-left: auto;
+  margin-right: auto;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 70px;
+  margin-top: 50px;
+
+}
+.aboutMe__column {
+  font-size: 17px;
+  max-width: 450px;
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  margin-left: auto;
+  margin-right: auto;
+  flex-wrap: wrap;
+  padding: 50px 90px;
+  font-family: "Zen Kurenaido", sans-serif;
+  letter-spacing: 1px;
+}
+
+.aboutMe__column-padding {
+  padding: 20px 90px;
+}
+.aboutMe__size--image2 {
+  max-width: 900px;
+  flex: 1;
+  height: 700px;
+  background-size: cover;
+  background-position: right;
+  margin-left: auto;
+  margin-right: auto;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.aboutMe__column--title1 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  opacity: 0.7;
+  letter-spacing: 2px;
+  margin-bottom: 15px;
+  margin-top: 10px;
+  font-family: "Amatic SC", cursive;
+  letter-spacing: 2px;
+}
+.aboutMe__column--title {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 300;
+  opacity: 0.5;
+  letter-spacing: 2px;
+  margin-bottom: 25px;
+}
+.aboutMe-photos-container {
+  max-width: 900px;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.aboutMe-photos {
+  background-size: cover;
+  flex: 1;
+  min-width: 250px;
+  height: 300px;
+  margin: 0px 10px;
+  margin-bottom: 20px;
+}
+
+.aboutMe-photo1 {
+  background-image: url("./images/pongo.jpg");
+}
+.aboutMe-photo2 {
+  background-image: url("./images/nebo.jpg");
+}
+.aboutMe-photo3 {
+  background-image: url("./images/shadow.jpg");
+  background-position: right;
+}
+.aboutMe-photo4 {
+  background-image: url("./images/nebo2.jpg");
+}
+.aboutMe-photo5 {
+  background-image: url("./images/shadow2.jpg");
+}
+.aboutMe-photo6 {
+  background-image: url("./images/pongo2.jpg");
+  background-position: right;
+}
+
+@media screen and (max-width: 1250px) {
+  .container-about {
+    padding: 20px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .aboutMe {
+    flex-direction: column;
+  }
+  .aboutMe__size--image1 {
+    flex: none;
+    width: 100%;
+    max-width: 100%;
+    padding: 0px;
+    margin: 0px;
+  }
+  .aboutMe__column {
+    max-width: 750px;
+    order: 1;
+    padding: 20px 0px;
+  }
+
+  .aboutMe__column-padding {
+    padding: 10px 0px 10px 0px;
+  }
+
+  .aboutMe__size--image2 {
+    order: 0;
+    flex: none;
+    width: 100%;
+    max-width: 100%;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 0px;
+  }
+  .aboutMe__column--title1 {
+    margin-bottom: 0px;
+  }
+  .aboutMe__column--title {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .aboutMe__column {
+    padding: 10px 40px;
+  }
+  .aboutMe__size--image2 {
+    background-position: right -125px top;
+  }
+  .aboutMe-photos {
+    min-width: 150px;
+    height: 150px;
+  }
+  .aboutMe__column--title {
+    margin-top: 10px;
+  }
+}
