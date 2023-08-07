@@ -1,0 +1,169 @@
+.footer__background {
+    background-color: #33414b;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .footer {
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 25px;
+    box-sizing: border-box;
+  }
+  .footer__column--1 {
+    flex-direction: column;
+    max-width: 205px;
+    text-align: center;
+    font-size: 20px;
+  }
+  .footer__column--2 {
+    text-decoration: none;
+  
+    max-width: 205px;
+    margin-top: 15px;
+    font-size: 20px;
+  }
+  .footer__column--4 {
+    text-decoration: none;
+    margin-top: 15px;
+  
+    font-size: 20px;
+  }
+  .footer__icons {
+    font-size: 20px;
+  }
+  .footer__row {
+    flex-direction: row;
+  }
+  .footer__icons--instagram {
+    width: 35px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .footer__icons--facebook {
+    width: 35px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .footer__icons--twitter {
+    width: 25px;
+    margin-left: 10px;
+  }
+  .footer__icons--pinterest {
+    width: 25px;
+    margin-left: 10px;
+  }
+  
+  .link {
+    text-decoration: none;
+    color: aliceblue;
+  }
+  
+  .instaRow__title {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+    padding-top: 40px;
+    color: rgba(0, 0, 0, 0.6);
+    padding-bottom: 20px;
+  }
+  
+  .instaRow__title a {
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .instaRow {
+    padding: 20px;
+    max-width: 900px;
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .instaRow__size {
+    width: 175px;
+    height: 175px;
+    position: relative;
+    background-size: cover;
+  }
+  
+  .instaRow a {
+    display: block;
+    flex: 1;
+  }
+  
+  @media screen and (max-width: 640px) {
+    .footer__icons {
+      order: 0;
+      margin-top: 0px;
+      margin-bottom: 30px;
+    }
+  
+    .footer__column {
+      order: 1;
+    }
+  
+    .footer {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .footer__column--contact {
+      margin-top: 20px;
+    }
+  }
+  @media screen and (max-width: 1200px) {
+    .instaRow a:last-child {
+      display: none;
+    }
+  }
+  
+  @media screen and (max-width: 755px) {
+    .footer__column--1 {
+      font-size: 15px;
+    }
+    .footer__column--2 {
+      font-size: 15px;
+    }
+    .footer__column--4 {
+      font-size: 15px;
+    }
+  }
+  
+  @media screen and (max-width: 640px) {
+    .footer__column--1 {
+      font-size: 10px;
+    }
+    .footer__column--2 {
+      font-size: 10px;
+    }
+    .footer__column--4 {
+      font-size: 10px;
+    }
+    .footer__column--2 {
+      text-align: center;
+    }
+    .footer__column--1 {
+      font-size: 20px;
+    }
+    .footer__column--2 {
+      font-size: 20px;
+    }
+    .footer__column--4 {
+      font-size: 20px;
+      text-align: center;
+    }
+  }
+  
