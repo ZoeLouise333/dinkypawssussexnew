@@ -1,0 +1,259 @@
+
+.subTitle {
+    font-size: 20px;
+    margin: 15px;
+    margin-top: 0px;
+    }
+
+    .subSection22 {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        justify-content: space-between;
+        max-width: 1600px;
+        margin-left: auto;
+        margin-right: auto;
+    
+    font-weight: lighter;
+    
+    
+    }
+    .fontCol {
+        color: whitesmoke;
+        font-size: 17px;
+       margin-top: auto;
+       margin-bottom: auto;
+    }
+    .subSection3 {
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+        height: 400px;
+        background-color:  rgb(230, 228, 245);
+        font-weight: 100;
+        color: rgb(43, 43, 43);
+    
+      
+    }
+    .centerrr {
+        text-align: center;
+    }
+    .section1 {
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        flex-direction: column;
+        
+    }
+    .mobileColumn{
+        display: flex;
+        flex-direction: row;
+    }
+    .mobileRow{
+        display: flex;
+        flex-direction: row;
+    }
+.color{
+    background-color: rgb(226, 192, 68);
+    color: aliceblue;
+}
+
+.color{
+    background-color: rgb(217, 112, 164);
+    color: aliceblue;
+    }
+.color{
+    background-color: rgb(103, 182, 200);
+    color: aliceblue;
+}
+
+.color{
+    background-color: rgb(255, 98, 98);
+    color: aliceblue;
+}
+
+
+.color1{
+    background-color: #837B4F;
+    color: aliceblue;
+    font-size: 13px;
+    
+}
+.color2{
+    background-color: #57567A;
+    color: aliceblue;
+    font-size: 19px;
+}
+.color3{
+    background-color:#F6C865;
+    color: aliceblue;
+    font-size: 14px;
+}
+.color4{
+    background-color: #EA9163;
+    color: aliceblue;
+    font-size: 20px;
+    }
+.color5{
+    background-color: #5C8F83;
+    color: aliceblue;
+    font-size: 13px;
+}
+.color6{
+
+    background-color: #DABAA8;
+    color: aliceblue;
+    font-size: 24px;
+}
+.color7{
+    background-color: #625D54;
+    color: aliceblue;
+    font-size: 21px;
+
+}
+.color8{
+    background-color: #85A9B7;
+    color: aliceblue;
+    font-size: 21px;
+}
+.color9{
+    background-color: #837B4F;
+    color: aliceblue;
+    font-size: 21px;
+}
+.color10{
+    background-color: #D2BDBB;
+    color: aliceblue;
+    font-size: 20px;
+}
+.color11{
+    background-color: #AED7CF;
+    color: aliceblue;
+    font-size: 18px;
+}
+.color12{
+    background-color: rgb(148, 161, 128);;
+    color: aliceblue;
+    font-size: 25px;
+}
+.color13{
+    background-color: #DFADAA;
+    color: aliceblue;
+    font-size: 23px;
+}
+.color14{
+    background-color: rgb(90, 138, 205);
+    color: aliceblue;
+    font-size: 25px;
+}
+.color15{
+    background-color: rgb(116, 119, 169);
+    color: aliceblue;
+}
+.color16{
+    background-color: rgb(216, 152, 55);
+    color: aliceblue;
+}
+.reviewImage {
+    width: 400px;
+    height: 400px;
+
+    background-size: cover;
+    
+}
+.one{
+    background-image: url("./images/tank.jpg");
+    background-position: 0px -40px;
+  
+    
+}
+.two{
+    background-image: url("./images/trio.jpg");
+    transform: rotate(-90deg);
+    background-position: 0px -40px;
+}
+.three{
+    background-image: url("./images/dexter.jpg");
+  
+}
+.four{
+    background-image: url("./images/jasper.jpg");
+  
+}
+.five{
+    background-image: url("./images/boy.JPG");
+    background-position: 0px -30px;
+  
+}
+.six{
+    background-image: url("./images/sausages.jpg");
+  
+}
+.seven{
+    background-image: url("./images/maggie.jpg");
+  
+}
+.eight{
+    background-image: url("./images/rocco.jpg");
+  
+}
+.nine{
+    background-image: url("./images/cooper.jpg");
+  
+}
+.ten{
+    background-image: url("./images/eevee.jpg");
+  
+}
+.eleven{
+    background-image: url("./images/marley.jpg");
+    background-position: -30px 0px;
+  
+}
+.twelve{
+    background-image: url("./images/rocco2.jpg");
+    background-position: 0px -40px;
+}
+.thirteen{
+    background-image: url("./images/maize.jpg");
+  
+}
+
+.fourteen{
+    background-image: url("./images/tank2.jpg");
+  
+}
+@media screen and (max-width: 1645px){
+    .mobileColumn{
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+     
+    }
+    .mobileRow{
+        display: flex;
+        flex-direction: row;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+     
+    }
+}
+
+    @media screen and (max-width: 850px){
+       .mobileColumn{
+           display: flex;
+           flex-direction: column;
+           margin-left: auto;
+           margin-right: auto;
+        
+       }
+       .mobileRow{
+           display: flex;
+           flex-direction: column;
+           margin-left: auto;
+           margin-right: auto;
+        
+       }
+   }
