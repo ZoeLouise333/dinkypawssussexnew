@@ -72,14 +72,14 @@ export default function Portfolio() {
 
       <div>
         <div className="centerbb container-offer">
-          <div class="subSection">
+          <div class="subSection7">
             <h2 class="title tc white">East Sussex Dogs and Cat Pictures</h2>
             <h5 class="info3 white">Coming soon... </h5>
           </div>
         </div>
         <div>
           <div className="centerbb container-offer">
-            <div class="subSection">
+            <div class="subSection7">
               <h2 class="title tc white">Somerset Dogs and Cat Pictures</h2>
               <h5 class="info3 white">Coming soon... </h5>
             </div>
