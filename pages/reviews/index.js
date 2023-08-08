@@ -43,7 +43,7 @@ export default function Aboutme() {
                 </div>
                 <div class=" mobileRow">
                   <div class="subSection3 ">
-                    <div class="reviewImage two"></div>
+                    <div class="reviewImage two5"></div>
                   </div>
                   <div class="subSection3 color2 b">
                     <h4 className="fontCol">
@@ -135,7 +135,7 @@ export default function Aboutme() {
 
                 <div class="mobileRow">
                   <div class="subSection3">
-                    <div class="reviewImage six"></div>
+                    <div class="reviewImage six5"></div>
                   </div>
                   <div class="subSection3 color6">
                     <h4 className="fontCol">
