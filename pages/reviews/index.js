@@ -20,7 +20,7 @@ export default function Aboutme() {
               <div class="mobileColumn">
                 <div class=" mobileRow">
                   <div class="subSection3">
-                    <div class="reviewImage one "></div>
+                    <div class="reviewImage one5 "></div>
                   </div>
                   <div class="subSection3 color1 ">
                     <h4 className="fontCol">
