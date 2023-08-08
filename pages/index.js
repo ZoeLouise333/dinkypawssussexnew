@@ -88,8 +88,8 @@ export default function Home() {
           <div className="line"></div>
         </div>{" "}
         <div className="testimonials space ">
-          <div className="centerbb container-offer">
-            <div class="subSection">
+          <div className="centerbb container-offer5">
+            <div class="subSection5">
               <h2 class="title tc white">CONTACT ME</h2>
               <h5 class="info3 white">
                 email:{" "}
