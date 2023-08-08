@@ -64,8 +64,8 @@ export default function Contact() {
         <div className="container">
           <Header />
           <div>
-            <div className="centerbb container-offer">
-              <div class="subSection">
+            <div className="centerbb container-offer7">
+              <div class="subSection7">
                 <h2 class="title tc white">CONTACT ME</h2>
                 <h5 class="info3 white">
                   email:{" "}
