@@ -1,3 +1,352 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	vertical-align: middle;
+	display: inline-block;
+}
+.portfoliotitle {
+  color: white;
+  font-size: 50px;
+  text-align: center;
+ padding-bottom: 20px;
+}
+.port{
+  background-size: cover;
+  background-position: 0px 0px;
+  background-repeat: no-repeat;
+}
+/*SUSSEX*/
+.onesus{
+
+  background-image: url(./images/freyax.png);
+}
+.twosus {
+  background-image: url(./images/elarax.png);
+  background-position: 0px -180px;
+}
+.threesus {
+  background-image: url(./images/lunax.png);
+
+}
+.foursus {
+  background-image: url(./images/lilyx.png);
+  background-position: -20px 0px;
+}
+.fivesus {
+  background-image: url(./images/bumblex.png);
+
+}
+.sixsus {
+  background-image: url(./images/chuckx.png);
+
+}
+.sevensus {
+  background-image: url(./images/cookiex.png);
+
+}
+.eightsus {
+  background-image: url(./images/darlax.png);
+
+}
+.ninesus {
+  background-image: url(./images/figgyx.png);
+
+}
+.tensus {
+  background-image: url(./images/freyadx.png);
+  background-position: 0px -60px;
+}
+.elevensus {
+  background-image: url(./images/hectors2.png);
+  background-position: 0px -40px;
+}
+.twelvesus {
+  background-image: url(./images/jackx.png);
+
+}
+.thirteensus {
+  background-image: url(./images/maggieyx.png);
+  background-position: -30px 0px;
+}.fourteensus {
+  background-image: url(./images/mollyx.png);
+
+}
+.fifteensus {
+  background-image: url(./images/montyx.png);
+
+}
+.sixteensus {
+  background-image: url(./images/nalax.png);
+
+}
+.seventeensus {
+  background-image: url(./images/paddyx.png);
+
+}
+.eighteensus {
+  background-image: url(./images/rosies2.png);
+
+}
+.nineteensus {
+  background-image: url(./images/rubyx.png);
+
+}
+.twentysus {
+  background-image: url(./images/tollox.png);
+
+}
+.twentyonesus {
+  background-image: url(./images/blossoms.png);
+
+}
+.twentytwosus {
+  background-image: url(./images/millies.png);
+  background-position: -30px 0px;
+}
+.twentythreesus {
+  background-image: url(./images/willows.png);
+
+}
+.twentyfoursus {
+  background-image: url(./images/rabbits.png);
+  background-position: 0px -130px;
+}
+.twentyfivesus {
+  background-image: url(./images/wilsons.png);
+  background-position: -30px 0px;
+}
+.twentysixsus {
+  background-image: url(./images/luthers.png);
+
+}
+.twentysevensus {
+  background-image: url(./images/gretas.png);
+
+}
+.twentyeightsus {
+  background-image: url(./images/milos.png);
+
+}
+.twentyninesus {
+  background-image: url(./images/barnies.png);
+
+}
+.thirtysus {
+  background-image: url(./images/pennys.png);
+  background-position: 0px -85px;
+}
+.thirtyonesus {
+  background-image: url(./images/dexter.png);
+ 
+}
+.thirtytwosus {
+  background-image: url(./images/maggiebs.png);
+  background-position: 0px -60px;
+}
+
+/*SOMERSET*/
+.onesom{
+  background-image: url(./images/alans.png);
+  background-position: -10px 0px;
+}
+.twosom{
+  background-image: url(./images/bettys.png);
+}
+.threesom{
+  background-image: url(./images/coopers.png);
+  background-position: 0px -120px;
+}
+.foursom{
+  background-image: url(./images/dexters.png);
+  background-position: -20px 0px;
+}
+.fivesom{
+  background-image: url(./images/apollos.png);
+  background-position: 0px -30px;
+}
+.sixsom{
+  background-image: url(./images/blues.png);
+  background-position: -30px 0px;
+}
+.sevensom{
+  background-image: url(./images/cat.png);
+  background-position: -10px 0px;
+}
+.eightsom{
+  background-image: url(./images/drums.png);
+  background-position: 0px -30px;
+}
+.ninesom {
+  background-image: url(./images/eevees2.png);
+  background-position: -20px 0px;
+
+}
+.tensom {
+  background-image: url(./images/gonzaless.png);
+  background-position: -10px 0px;
+ 
+}
+.elevensom {
+  background-image: url(./images/guss.png);
+  background-position: 0px -80px;
+}
+.twelvesom {
+  background-image: url(./images/jackjacks.png);
+
+}
+.thirteensom {
+  background-image: url(./images/jims.png);
+  background-position: -20px 0px;
+}
+.fourteensom {
+  background-image: url(./images/jaspers.png);
+
+}
+.fifteensom {
+  background-image: url(./images/mables.png);
+  background-position: 0px -90px;
+
+}
+.sixteensom {
+  background-image: url(./images/maggiesaus.png);
+ 
+}
+.seventeensom {
+  background-image: url(./images/poppyjasp.png);
+  background-position: 0px -140px;
+}
+.eighteensom {
+  background-image: url(./images/maggiecurly.png);
+  background-position: -40px 0px;
+}
+.nineteensom {
+  background-image: url(./images/summers.png);
+  background-position: 0px -110px;
+}
+.twentysom {
+  background-image: url(./images/simbas.png);
+  background-position: -20px 0px;
+
+}
+.twentyonesom {
+  background-image: url(./images/poppytri.png);
+ 
+
+}
+.twentytwosom {
+  background-image: url(./images/megs.png);
+}
+.twentythreesom {
+  background-image: url(./images/maizes.png);
+
+}
+.twentyfoursom {
+  background-image: url(./images/maxs.png);
+  background-position: -30px 0px;
+}
+.twentyfivesom {
+  background-image: url(./images/mias.png);
+}
+.twentysixsom {
+  background-image: url(./images/maggiecat.png);
+  background-position: -10px 0px;
+
+}
+.twentysevensom {
+  background-image: url(./images/roccos2.png);
+  background-position: 0px -20px;
+
+}
+.twentyeightsom {
+  background-image: url(./images/tanks.png);
+  background-position: -20px 0px;
+
+}
+.twentyninesom {
+  background-image: url(./images/bailey.png);
+ 
+}
+.thirtysom {
+  background-image: url(./images/briennes.png);
+  background-position: -10px 0px;
+}
+.thirtyonesom {
+  background-image: url(./images/benjis.png);
+  background-position: -60px 0px;
+ 
+}
+.thirtytwosom {
+  background-image: url(./images/florences.png);
+  background-position: -20px 0px;
+}
+.thirtythreesom {
+  background-image: url(./images/poppys.png);
+  background-position: 0px -180px;
+}
+.thirtyfoursom {
+  background-image: url(./images/milococks.png);
+  background-position: 0px -120px;
+}
+.thirtyfivesom {
+  background-image: url(./images/winnies.png);
+   background-position: -20px 0px;
+  
+}
+.thirtysixsom {
+  background-image: url(./images/marleys.png);
+}
+.thirtysevensom {
+  background-image: url(./images/darcies.png);
+  background-position: 0px -60px;
+}
+.thirtyeightsom {
+  background-image: url(./images/boys.png);
+}
+
+
+
+
+/* Main CSS */
+.backgroundportfolio {
+  background-color: #455763;
+  margin-top: 50px;
+  padding: 20px;
+}
+.grid-wrapper > div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.grid-wrapper > div > img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 5px;
+}
+
+.grid-wrapper {
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	grid-auto-rows: 200px;
+	grid-auto-flow: dense;
+}
+.grid-wrapper .wide {
+	grid-column: span 2;
+}
+.grid-wrapper .tall {
+	grid-row: span 2;
+}
+.grid-wrapper .big {
+	grid-column: span 2;
+	grid-row: span 2;
+}
 .masonry__padding {
   padding: 10px 20px;
 }
