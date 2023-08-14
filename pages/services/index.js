@@ -7,7 +7,7 @@ export default function Portfolio() {
   return (
     <>
       <Head>
-        <title>Dinky Paws | Puppy Services | Somerset</title>
+        <title>Dinky Paws | Uckfield Dog Walking | East Sussex</title>
       </Head>
       <div className="container">
         <Header />
@@ -87,7 +87,7 @@ export default function Portfolio() {
           <div class="subSection">
             <div class="catSection mb">
               <div class="nightImage"></div>
-              <div class="subSection2 ssw pink">
+              <div class="subSection2 ssw blue34">
                 <h3 class="subTitle2">OVERNIGHT SITTING</h3>
                 <h4>£55 - 9pm till 7am</h4>
                 <h4>£5 - additional consecutive hours either side</h4>
