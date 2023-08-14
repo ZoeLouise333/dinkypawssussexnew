@@ -22,13 +22,13 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Dinky Paws | Puppy Services | Somerset</title>
+       <title>Dinky Paws | Uckfield Dog Walking | East Sussex</title>
       </Head>
       <div className="container">
         <Header />
         <div className="groupImage"></div>
         <div className="testimonials">
-          <h1>PROFESSIONAL PET SERVICES</h1>
+          <h1 className="margt">PROFESSIONAL PET SERVICES</h1>
 
           <h1 className="small">
             <span ref={textRef}></span>
