@@ -90,7 +90,7 @@ export default function Home() {
         <div className="testimonials space ">
           <div className="centerbb container-offer5">
             <div class="subSection5">
-              <h2 class="title tc white">CONTACT ME</h2>
+              <h2 class="title tc white margb">CONTACT ME</h2>
               <h5 class="info3 white">
                 email:{" "}
                 <a class="pointer" href="mailto:thedinkypaws@gmail.com">
