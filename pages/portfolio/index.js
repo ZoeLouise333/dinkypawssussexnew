@@ -8,7 +8,7 @@ export default function Portfolio() {
   return (
     <>
       <Head>
-        <title>Dinky Paws | Puppy Services | Somerset</title>
+       <title>Dinky Paws | Uckfield Dog Walking | East Sussex</title>
       </Head>
 
       <Header />
