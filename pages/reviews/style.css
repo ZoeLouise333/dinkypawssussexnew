@@ -18,6 +18,66 @@
     
     
     }
+    .revmil{
+        background-image: url("./images/milrev.png");
+    }
+    .revchuck{
+        background-image: url("./images/chuckrev.png");
+        background-position: 0px -130px;
+    }
+    .revnala{
+
+    background-image: url("./images/nalarev.png");
+    background-position: 0px -110px;
+    }
+    .revfiggy{
+        background-image: url("./images/figgyrev.png");
+        background-position: 0px -130px;
+    }
+    .revfreya{
+        background-image: url("./images/freyarev2.png");
+    }
+    .revrow{
+        display: flex;
+        flex-direction: row;
+        max-width: 850px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .revtext{
+        display: flex;
+        color: white;
+        text-align: center;
+        width: 400px;
+        margin-top: 50px;
+        font-size: 45px;
+    }
+    .revpic1{
+        background-image: url("./images/freyarevpng.png");
+        background-size: cover;
+        background-position: 0px 0px;
+        background-repeat: no-repeat;
+        height: 400px;
+        width: 300px;
+        margin-top: 0px;
+        margin-left: 50px;
+    }
+    .fzrev{
+        margin-top: 20px;
+        font-size: 30px;
+    }
+    .pricing__background12{
+        height: 500px;
+        background-color: #788e9c;
+        width: 100%;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        padding-top: 50px;
+
+    }
+    .bottomSpace {
+        margin-bottom: 50px;
+    }
     .fontCol {
         color: whitesmoke;
         font-size: 17px;
@@ -172,15 +232,15 @@
     transform: rotate(-90deg);
     background-position: 0px -40px;
 }
-.three{
+.three5{
     background-image: url("./images/dexter.jpg");
   
 }
-.four{
+.four5{
     background-image: url("./images/jasper.jpg");
   
 }
-.five{
+.five5{
     background-image: url("./images/boy.JPG");
     background-position: 0px -30px;
   
@@ -195,6 +255,7 @@
 }
 .eight{
     background-image: url("./images/rocco.jpg");
+
   
 }
 .nine{
@@ -203,6 +264,7 @@
 }
 .ten{
     background-image: url("./images/eevee.jpg");
+ 
   
 }
 .eleven{
@@ -240,6 +302,32 @@
      
     }
 }
+@media screen and (max-width:930px){
+.revrow {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+    .revtext{
+        font-size: 25px;
+        width: 400px;
+        text-align: center;
+        
+        
+    }
+    .revpic1{
+        width: 175px;
+        height: 275px;
+    }
+    .pricing__background12{
+        height: 375px;
+    }
+    .fzrev{ font-size: 23px;
+    }
+}
 
     @media screen and (max-width: 850px){
        .mobileColumn{
@@ -257,3 +345,44 @@
         
        }
    }
+
+   @media screen and (max-width:690px){
+    .revrow {
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    
+        .revtext{
+            font-size: 20px;
+            max-width: 400px;
+            text-align: center;
+          
+            
+            
+        }
+        .revpic1{
+            width: 155px;
+            height: 230px;
+            margin-left: 10px;
+            background-position: -40px 0px;
+        }
+        .pricing__background12{
+            height: 275px;
+            padding-top: 20px;
+           
+        }
+        .fzrev{ font-size: 17px;
+        }
+    }
+
+    @media screen and (max-width:420px){
+        .revtext{
+           margin-top: 20px;
+          
+            
+            
+        }
+    }
