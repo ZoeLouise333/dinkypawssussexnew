@@ -43,30 +43,7 @@ export default function Header() {
         </div>
       </div>
 
-      <div className="logobar">
-        <div className="logoname">DINKY PAWS</div>
-        <div className="paw-container">
-          <div className="paw a"></div>
-          <div className="paw b up"></div>
-          <div className="paw c"></div>
-          <div className="paw d up"></div>
-          <div className="paw e"></div>
-          <div className="paw f up"></div>
-          <div className="paw g"></div>
-          <div className="paw h up"></div>
-          <div className="paw i"></div>
-          <div className="paw j up"></div>
-          <div className="paw k"></div>
-          <div className="paw l up"></div>
-          <div className="paw m"></div>
-          <div className="paw n up"></div>
-          <div className="paw o"></div>
-          <div className="paw p up"></div>
-          <div className="paw q"></div>
-          <div className="paw r up"></div>
-          <div className="paw s"></div>
-        </div>
-      </div>
+    
       <div className="title"></div>
       <div
         className={
