@@ -22,7 +22,7 @@
   flex-wrap: wrap;
   justify-content: space-between;
   margin-bottom: 70px;
-  margin-top: 150px;
+  margin-top: 70px;
   border-radius: 50%;
 }
 .aboutMe__size--image2 {
@@ -42,7 +42,7 @@
 }
 .aboutMe__column {
   font-size: 17px;
-  max-width: 450px;
+  max-width: 550px;
   display: flex;
   flex-direction: column;
   text-align: justify;
@@ -76,7 +76,7 @@
   opacity: 0.7;
   letter-spacing: 2px;
   margin-bottom: 15px;
-  margin-top: 10px;
+  margin-top: 50px;
   font-family: "Amatic SC", cursive;
   letter-spacing: 2px;
 }
@@ -111,17 +111,19 @@
 }
 
 .aboutMe-photo1 {
-  background-image: url("./images/pongo.jpg");
+  background-image: url("./images/marley.jpg");
+  background-position: -30px 0px;
 }
 .aboutMe-photo2 {
   background-image: url("./images/nebo.jpg");
 }
 .aboutMe-photo3 {
-  background-image: url("./images/shadow.jpg");
-  background-position: right;
+  background-image: url("./images/pandg.jpg");
+
 }
 .aboutMe-photo4 {
-  background-image: url("./images/nebo2.jpg");
+  background-image: url("./images/other.jpg");
+  background-position: 0px -30px;
 }
 .aboutMe-photo5 {
   background-image: url("./images/shadow2.jpg");
@@ -142,11 +144,16 @@
   }
   .aboutMe__size--image1 {
     flex: none;
-    width: 100%;
-    max-width: 100%;
+    width: 400px;
+    height: 400px;
     padding: 0px;
     margin: 0px;
+    align-self: center;
   }
+  .aboutMe__column--title1 {
+    margin-top: 20px;
+  }
+
   .aboutMe__column {
     max-width: 750px;
     order: 1;
@@ -175,6 +182,23 @@
   }
 }
 
+@media screen and (max-width: 865px) {
+  
+  .aboutMe__column {
+    padding: 10px 40px;
+  }
+}
+@media screen and (max-width: 810px) {
+  .aboutMe-photo3 {
+    background-position: 0px -270px;
+  
+  }
+  .aboutMe-photo4 {
+    background-position: 0px -70px;
+  }
+}
+
+
 @media screen and (max-width: 600px) {
   .aboutMe__column {
     padding: 10px 40px;
@@ -189,4 +213,29 @@
   .aboutMe__column--title {
     margin-top: 10px;
   }
+  .aboutMe-photo3 {
+    background-position: 0px -10px;
+  
+  }
+  .aboutMe-photo4 {
+    background-position: 0px -30px;
+  }
+  .aboutMe-photo1 {
+    background-position: 0px 0px;
+  }
 }
+@media screen and (max-width: 510px) {
+ 
+  .aboutMe-photo3 {
+    background-position: 0px -190px;
+  
+  }
+  .aboutMe-photo4 {
+    background-position: 0px -60px;
+  }
+  .aboutMe-photo1 {
+    background-position: 0px 0px;
+  }
+}
+
+
