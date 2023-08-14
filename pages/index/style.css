@@ -15,6 +15,12 @@ margin-right: auto;
 
 
 }
+.margb {
+  margin-bottom: 20px;
+}
+.margt {
+  margin-top: 30px;
+}
 .container-offer5 {
   width: 100vw;
   display: flex;
