@@ -112,53 +112,14 @@ font-weight: lighter;
   box-shadow: 0px 0px 15px -8px black;
   background-position: cover;
 }
-.one {
-  background-image: url("./images/19.jpg");
-  background-size: cover;
-  background-position: 0px -30px;
-  background-repeat: no-repeat;
-}
-.two {
-  background-image: url("./images/mag.jpg");
-  background-size: cover;
-  background-position: 0px 0px;
-  background-repeat: no-repeat;
-}
-.three {
-  background-image: url("./images/5.jpg");
-  background-size: cover;
-  background-position: 0px -7px;
-  background-repeat: no-repeat;
-}
-.four {
-  background-image: url("./images/20.jpg");
-  background-size: cover;
-  background-position: 0px -20px;
-  background-repeat: no-repeat;
-}
-.five {
-  background-image: url("./images/cat.jpg");
-  background-size: cover;
-  background-position: 0px -130px;
-  background-repeat: no-repeat;
-}
-.six {
-  background-image: url("./images/marley.jpg");
-  background-size: cover;
-  background-position: 0px 0px;
-  background-repeat: no-repeat;
-}
+
 .linea {
   width: 900px;
   border: 0.1px solid #33414b;
   opacity: 0.5;
   align-self: center;
 }
-.star {
-  background-image: url("./images/star.svg");
-  width: 25px;
-  height: 25px;
-}
+
 .ofz {
   font-size: 30px;
   font-family: "Amatic SC", cursive;
@@ -463,15 +424,7 @@ h3 {
   justify-content: center;
 }
 
-.arrow {
-  position: absolute;
-  cursor: pointer;
-  background-image: url("./images/arrowleft.svg");
-  height: 50px;
-  width: 50px;
 
-  margin-top: 250px;
-}
 
 .left {
   left: 100px;
