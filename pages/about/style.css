@@ -114,9 +114,7 @@
   background-image: url("./images/marley.jpg");
   background-position: -30px 0px;
 }
-.aboutMe-photo2 {
-  background-image: url("./images/nebo.jpg");
-}
+
 .aboutMe-photo3 {
   background-image: url("./images/pandg.jpg");
 
@@ -125,13 +123,8 @@
   background-image: url("./images/other.jpg");
   background-position: 0px -30px;
 }
-.aboutMe-photo5 {
-  background-image: url("./images/shadow2.jpg");
-}
-.aboutMe-photo6 {
-  background-image: url("./images/pongo2.jpg");
-  background-position: right;
-}
+
+
 
 @media screen and (max-width: 1250px) {
   .container-about {
