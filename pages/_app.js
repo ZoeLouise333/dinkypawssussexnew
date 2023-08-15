@@ -8,6 +8,7 @@ import "./reviews/style.css";
 import "./services/style.css";
 import "./portfolio/style.css";
 import "./index/style.css";
+import "./contact/style.css";
 
 import "../components/hamburger/styles.css";
 
