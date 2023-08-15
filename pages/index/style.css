@@ -63,48 +63,7 @@ font-weight: lighter;
   margin-top: -20px;
   font-size: 30px;
 }
-.arrowaaa {
-  background-image: url("./images/arrowleft.svg");
-  height: 50px;
-  width: 50px;
-  cursor: pointer;
-}
-.serviceOne {
-  background-image: url("./images/puppy.jpg");
-width: 250px;
-height: 250px;
-  box-shadow: 0px 0px 15px -8px black;
-  background-size: cover;
-  background-repeat: no-repeat;
-  border-radius: 50%;
-}
-.serviceTwo {
-  background-image: url("./images/brienne.png");
-width: 250px;
-height: 250px;
-  box-shadow: 0px 0px 15px -8px black;
-  background-size: cover;
-  background-repeat: no-repeat;
-  border-radius: 50%;
-}
-.serviceThree {
-  background-image: url("./images/rocco.png");
-width: 250px;
-height: 250px;
-  box-shadow: 0px 0px 15px -8px black;
-  background-size: cover;
-  background-repeat: no-repeat;
-  border-radius: 50%;
-}
-.serviceFour {
-  background-image: url("./images/chfr.jpg");
-width: 250px;
-height: 250px;
-  box-shadow: 0px 0px 15px -8px black;
-  background-size: cover;
-  background-repeat: no-repeat;
-  border-radius: 50%;
-}
+
 .offer {
   width: 100vw;
   display: flex;
