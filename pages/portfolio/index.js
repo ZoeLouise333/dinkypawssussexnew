@@ -47,6 +47,24 @@ export default function Portfolio() {
           <div className="port twentyeightsus tall"></div>
           <div className="port twentythreesus"></div>
           <div className="port twentyfoursus"></div>
+   
+          <div className="port fourtyfivesus tall"></div>
+
+          <div className="port fourtysevensus tall"></div>
+          <div className="port fourtyeightsus tall"></div>
+          <div className="port fourtyonesus big"></div>
+          <div className="port fourtyninesus tall"></div>
+          <div className="port fiftysus tall"></div>
+
+          <div className="port fiftyonesus tall"></div>
+
+          <div className="port fiftytwosus tall"></div>
+          <div className="port fiftythreesus tall"></div>
+          <div className="port fourtythreesus"></div>
+          <div className="port fiftyfoursus tall"></div>
+
+          <div className="port fiftyfivesus tall"></div>
+          <div className="port fiftysixsus tall"></div>
         </div>
         <br />
         <br />
