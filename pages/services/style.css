@@ -64,11 +64,12 @@ span {
   background-position: 0px -130px;
 }
 .dogImage{
-  background-image: url(./images/maggieyx.png);
+  background-image: url(./images/groupy.png);
   width: 400px;
-  height: 430px;
+  height: 630px;
   background-size: cover;
-  background-position: 0px -100px;
+  background-position:-20px 0px;
+  
 
 }
 .sitImage{
