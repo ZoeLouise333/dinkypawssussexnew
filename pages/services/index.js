@@ -19,13 +19,16 @@ export default function Portfolio() {
           <div class="subSection">
             <div class="catSection">
               <div class="subSection2 pink">
-                <h3 class="subTitle1">SOLO DOG WALKING</h3>
+<h3 class="subTitle1">DOG WALKING</h3>
 
-                <h4>£20 - 1 hour</h4>
-                <h4>£17 - 45 minutes</h4>
-                <h4>£14 - 30 minutes</h4>
+                <h4>Group of 3 or 4 dogs for 1 hour - £16</h4>
+                <h5>£10 - per additional dog from the same household</h5>
 
-                <h5>£10 - per additional dog</h5>
+                <h4>Pair of dogs for 1 hour - £18 </h4>
+                <h5>£10 - per additional dog from the same household</h5>
+
+                <h4>Solo walk for 30 minutes - £14 </h4>
+                <h5>£5 - per additional dog from the same household</h5>
               </div>
               <div class="dogImage"></div>
             </div>
