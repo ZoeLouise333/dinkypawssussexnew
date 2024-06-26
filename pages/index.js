@@ -22,11 +22,13 @@ export default function Home() {
   return (
     <>
       <Head>
-       <title>Dinky Paws | Uckfield Dog Walking | East Sussex</title>
+        <title>
+          Dinky Paws | Dog Walking | Cat Sitting | Uckfield | Sussex
+        </title>
       </Head>
       <div className="container">
         <Header />
-     <div className="logobar">
+        <div className="logobar">
           <div className="logoname">DINKY PAWS</div>
           <div className="paw-container">
             <div className="paw a"></div>
@@ -52,13 +54,45 @@ export default function Home() {
         </div>
         <div className="groupImage"></div>
         <div className="testimonials">
-          <h1 className="margt">PROFESSIONAL PET SERVICES</h1>
+          <h1 className="margt">
+            PROFESSIONAL, FRIENDLY, RELIABLE PET SERVICES
+          </h1>
+          <h2 className="gap biggerText">uckfield and surounding areas</h2>
 
-          <h1 className="small">
-            <span ref={textRef}></span>
+          <h1 className="gap small">
+            * Free meet and greet before each service *
           </h1>
 
-          <h2 className="gap">uckfield and surounding areas</h2>
+          <div className="imagesRow  ">
+            <Link
+              href="/services"
+              className="imagesRow__size imagesRow__size--1"
+            >
+              <div className="imagesRow__title"> GROUP DOG WALKS</div>
+            </Link>
+            <Link
+              href="/services"
+              className="imagesRow__size imagesRow__size--2"
+            >
+              <div className="imagesRow__title">SOLO WALKS/VISITS</div>
+            </Link>
+            <Link
+              href="/services"
+              className="imagesRow__size imagesRow__size--3"
+            >
+              <div className="imagesRow__title"> CAT VISITS</div>
+            </Link>
+            <Link
+              href="/services"
+              className="imagesRow__size imagesRow__size--4"
+            >
+              <div className="imagesRow__title"> OVERNIGHT STAYS</div>
+            </Link>
+          </div>
+
+          <h1 className="small ">
+            <span className="biggerText" ref={textRef}></span>
+          </h1>
 
           <div className="container-test space mobile-reviews">
             <div className="card featured-four ">
@@ -114,7 +148,7 @@ export default function Home() {
         <div className="testimonials space ">
           <div className="centerbb container-offer5">
             <div class="subSection5">
-              <h2 class="title tc white margb">CONTACT ME</h2>
+              <h2 class="title white margb">CONTACT ME</h2>
               <h5 class="info3 white">
                 email:{" "}
                 <a class="pointer" href="mailto:thedinkypaws@gmail.com">
@@ -129,7 +163,7 @@ export default function Home() {
                 </a>
               </h5>
 
-              <h5 class="info6 white">
+              <h5 class="info6 white bottomSpace">
                 Please include: your name, service, pet name, pet type, breed,{" "}
                 <br /> location, date/days, times, any other useful information{" "}
               </h5>
@@ -258,32 +292,12 @@ export default function Home() {
           </div>
         </div>
         */}
-          <h1 className="space center opacity">
-            Solo dog walks, dog/cat sitting, puppy Services
-          </h1>
-          <h1 className="center small">
-            Free meet and greet before each service
-          </h1>
-        </div>
-        <div className="imagesRow  ">
-          <Link href="/services" className="imagesRow__size imagesRow__size--1">
-            <div className="imagesRow__title"> SOLO DOG WALKS</div>
-          </Link>
-          <Link href="/services" className="imagesRow__size imagesRow__size--2">
-            <div className="imagesRow__title">PUPPY/DOG SITTING</div>
-          </Link>
-          <Link href="/services" className="imagesRow__size imagesRow__size--3">
-            <div className="imagesRow__title"> CAT SITTING</div>
-          </Link>
-          <Link href="/services" className="imagesRow__size imagesRow__size--4">
-            <div className="imagesRow__title"> OVERNIGHT STAYS</div>
-          </Link>
-        </div>
-        <div className="wrapper">
-          <div className="imageAwards">
-            <div className="imageAwards__size imageAwards__size--1"></div>
-            <div className="imageAwards__size imageAwards__size--2"></div>
-            <div className="imageAwards__size imageAwards__size--3"></div>
+          <div className="wrapper">
+            <div className="imageAwards">
+              <div className="imageAwards__size imageAwards__size--1"></div>
+              <div className="imageAwards__size imageAwards__size--2"></div>
+              <div className="imageAwards__size imageAwards__size--3"></div>
+            </div>
           </div>
         </div>
         <Footer />
@@ -291,3 +305,4 @@ export default function Home() {
     </>
   );
 }
+
