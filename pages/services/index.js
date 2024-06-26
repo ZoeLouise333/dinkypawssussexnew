@@ -19,16 +19,33 @@ export default function Portfolio() {
           <div class="subSection">
             <div class="catSection">
               <div class="subSection2 pink">
-<h3 class="subTitle1">DOG WALKING</h3>
+<h3 class="subTitle1">GROUP DOG WALKING</h3>
 
-                <h4>Group of 3 or 4 dogs for 1 hour - £16</h4>
+                <h4>£17 - 1 HOUR</h4>
+              
+
+                <h5> * 1 hour of walking/ running/ playing *</h5>
+                <h5> * professional secured dog cages *</h5>
+                <h5>
+                  {" "}
+                  * fresh drinking water and non slip mats in each cage *
+                </h5>
+                <h5> * a hose and dry off for the wetter / muddier walks *</h5>
+                <h5> * a shampoo for those poop roller *</h5>
+                <h5>
+                  * i use my own waterproof leads which are cleaned between dogs
+                  *
+                </h5>
+                <h5>
+                  {" "}
+                  * Air conditioned van which is great for the hot days *
+                </h5>
+
+                <h5>* tasty kibble as treats *</h5>
+             
+
+                <h4 className="groupSpace"> Groups walks are Weekdays only </h4>
                 <h5>£10 - per additional dog from the same household</h5>
-
-                <h4>Pair of dogs for 1 hour - £18 </h4>
-                <h5>£10 - per additional dog from the same household</h5>
-
-                <h4>Solo walk for 30 minutes - £14 </h4>
-                <h5>£5 - per additional dog from the same household</h5>
               </div>
               <div class="dogImage"></div>
             </div>
