@@ -1,9 +1,9 @@
 .groupImage {
 
-  background-image: url("./images/sussexgroup.jpg");
+  background-image: url("./images/groupPic.png");
 
-max-width: 1603px;
-  height: 902px;
+max-width: 1403px;
+  height: 420px;
   background-size: cover;
   flex-direction: center;
 margin-left: auto;
@@ -11,41 +11,17 @@ margin-right: auto;
   box-shadow: 0px 0px 15px -8px black;
   background-repeat: no-repeat;
   display: flex;
-
+  background-position: 0px -150px;
+  margin-top: 20px;
 
 
 }
+
 .margb {
   margin-bottom: 20px;
 }
 .margt {
   margin-top: 30px;
-}
-.container-offer5 {
-  width: 100vw;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 275px;
-
-
-  box-shadow: 0px 0px 15px -8px black;
-
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
-.subSection5 {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  justify-content: space-between;
- max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-margin-top: 0px;
-font-weight: lighter;
-
-
 }
 .main-container
 .tc {
@@ -63,6 +39,15 @@ font-weight: lighter;
   margin-top: -20px;
   font-size: 30px;
 }
+
+.biggerText {
+  font-size: 45px;
+}
+
+.smallerText{
+  font-size: 35px;
+}
+
 
 .offer {
   width: 100vw;
@@ -113,6 +98,11 @@ font-weight: lighter;
   background-position: cover;
 }
 
+
+
+
+
+
 .linea {
   width: 900px;
   border: 0.1px solid #33414b;
@@ -127,10 +117,11 @@ font-weight: lighter;
 }
 .small {
   margin-top: -10px;
-  font-size: 27px;
+  font-size: 25px;
+  padding: 10px;
 }
 .gap{
-  margin-top: -10px;
+  margin-top: 0px;
 }
 .imagesRow {
   margin-top: 40px;
@@ -141,6 +132,7 @@ font-weight: lighter;
   margin-right: auto;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin-bottom: 40px;
 }
 .spacet {
   margin-top: 50px;
@@ -156,7 +148,7 @@ font-weight: lighter;
   padding: 10px;
   text-align: center;
   color: white;
-  font-size: 33px;
+  font-size: 35px;
   font-weight: bold;
 }
 
@@ -187,8 +179,9 @@ font-weight: lighter;
 }
 
 .imagesRow__size--1 {
-  background-image: url("../index/images/bumbles.png");
-  background-position: 0px;
+  background-image: url("../index/images/groupdogpic.png");
+  background-position: 0px -55px;
+
 
   box-shadow: 0px 0px 15px -8px black;
 }
@@ -196,20 +189,22 @@ font-weight: lighter;
 .imagesRow__size--2 {
   background-image: url("../index/images/wilsons.png");
   background-position: 0px -30px;
-
+  margin-left: 10px;
+  margin-right: 5px;
   box-shadow: 0px 0px 15px -8px black;
 }
 
 .imagesRow__size--3 {
   background-image: url("../index/images/cookies.png");
   background-position: 0px;
-
+  margin-left: 5px;
+  margin-right: 10px;
   box-shadow: 0px 0px 15px -8px black;
 }
 
 .imagesRow__size--4 {
-  background-image: url("../index/images/jacks.png");
-  background-position: 0px 3px;
+  background-image: url("../index/images/overnightdogs.png");
+  background-position: 0px -30px;
 
   box-shadow: 0px 0px 15px -8px black;
 }
@@ -270,7 +265,7 @@ font-weight: lighter;
 .wrapper {
   padding: 30px;
   background-color: white;
-  margin-top: 30px;
+  margin-top: 0px;
 }
 
 .imageAwards {
@@ -282,13 +277,14 @@ font-weight: lighter;
   margin-right: auto;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-top: 10px;
+  margin-top: 0px;
   margin-bottom: 30px;
 }
 .imageAwards__size {
   flex: 1;
   max-width: 150px;
   height: 200px;
+  width: 150px;
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -304,6 +300,12 @@ font-weight: lighter;
 .imageAwards__size--3 {
   background-image: url("./images/insured.png");
 }
+
+.centerbb{
+  margin-bottom: 0px;
+
+} 
+
 
 .main-container {
   margin: 20px;
@@ -522,7 +524,7 @@ h3 {
     max-height: 480px;
   }
   .container-offer5 {
-    height: 350px;
+    height: 300px;
 
   }
   @media screen and (max-width: 1050px) {
@@ -601,6 +603,7 @@ h3 {
     max-height: 150px;
   }
 }
+
 
 
 
