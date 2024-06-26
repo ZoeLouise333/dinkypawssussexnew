@@ -8,8 +8,26 @@
 }
 .container-about {
   margin-bottom: 60px;
+  
+}
+.aboutRow{
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+
 }
 
+.main-textAbout {
+  font-size: 25px;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  font-family: "Zen Kurenaido", sans-serif;
+  letter-spacing: 1px;
+}
 .aboutMe__size--image1 {
   max-width: 500px;
   flex: 1;
@@ -25,19 +43,20 @@
   margin-top: 70px;
   border-radius: 50%;
 }
-.aboutMe__size--image2 {
-  max-width: 900px;
+.aboutMe__size--image222 {
+width: 650px;
   flex: 1;
-  height: 570px;
-  background-image: url("./images/me5.jpg");
+  height: 470px;
+  background-image: url("./images/dogsme.jpg");
   background-size: cover;
-  background-position: center;
+  background-position: 0px -50px;
   margin-left: auto;
   margin-right: auto;
   flex-wrap: wrap;
   justify-content: space-between;
   margin-bottom: 70px;
   margin-top: 50px;
+  
 
 }
 .aboutMe__column {
@@ -230,5 +249,6 @@
     background-position: 0px 0px;
   }
 }
+
 
 
