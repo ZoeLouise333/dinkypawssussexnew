@@ -7,7 +7,9 @@ export default function Aboutme() {
   return (
     <>
       <Head>
-        <title>Dinky Paws | Uckfield Dog Walking | East Sussex</title>
+        <title>
+          Dinky Paws | Dog Walking | Cat Sitting | Uckfield | Sussex
+        </title>
       </Head>
       <div className="container">
         <Header />
@@ -18,12 +20,12 @@ export default function Aboutme() {
             <div className="aboutMe__column--title1">ABOUT ME</div>
             <p className="nf">
               Hello there, my name is Zoe and I am the proud owner of a
-              wonderful 2-year-old dalmatian named Pongo. Recently, we moved
-              from Somerset to Sussex, where I had previously started my
-              business called Dinky Paws. Although it was difficult to leave
-              behind all the dogs and cats I had built strong relationships
-              with, I am excited to offer my range of services to new furry
-              friends in the area.
+              wonderful 3-year-old dalmatian named Pongo. A year ago, we moved
+              from Somerset to Sussex and we love it and all the wonderfull
+              walks. I started Dinky Paws nearly three years ago in Somerset and
+              it had to come with me to Sussex as it's the best job ever! We
+              have enjoyed exploring the area and make lots of new furry
+              friends.
             </p>
           </div>
         </div>
@@ -34,33 +36,37 @@ export default function Aboutme() {
         </div>
         <div className="container-about">
           <div className="aboutMe__column--title1">ABOUT DINKY PAWS</div>
-
-          <div className="main-text nf">
-            One of my favorite services to offer is solo walks, as I love
-            exploring with dogs and building a strong bond with them. I also
-            enjoy helping to train puppies. To ensure the utmost control in any
-            situation, I only offer solo walks or multiple dogs from the same
-            household. I treat every dog as if they were my own, and I believe
-            that building trust is key to ensuring they fully enjoy their walk.
-            <br />
-            <br />I have gained a lot of experience working with different
-            breeds and ages, including helping reactive dogs by providing calm
-            and relaxing walks, along with some training to discourage their
-            reactivity.
-            <br />
-            <br />
-            In addition to dog walking, I also offer cat sitting services. I
-            enjoy giving them cuddles and playing with them while their owners
-            are away. I also offer overnight sitting, although I am limited to a
-            maximum of three nights due to my commitment to caring for Pongo.
-            <br />
-            <br />I am excited to meet new furry friends and provide them with
-            the same level of care and attention that I give to my own pets.
-            Please feel free to contact me if you have any questions.
+          <div className="aboutRow">
+            <div className="main-textAbout nf">
+              One of my favorite services to offer is group walks, I started
+              group walks a few months ago - previously only offering solo
+              walks. I have loved every group I have created which is thought
+              out very carefully based on breed, size, age etc. It is so
+              rewarding to see dogs having so much fun on their walk. Atleast
+              one solo walk will take place first, I believe that building trust
+              is key to ensuring they fully enjoy their walk.
+              <br />
+              <br />I still offer solo walks - spaces are very limited. The hope
+              is to build confidence for them to then be introduced to groups. I
+              have gained a lot of experience working with different breeds and
+              ages, including helping reactive dogs by providing calm and
+              relaxing walks, along with some training to discourage their
+              reactivity.
+              <br />
+              <br />
+              In addition to dog walking, I also offer cat sitting services. I
+              enjoy giving them cuddles and playing with them while their owners
+              are away. I also offer overnight sitting, although I am limited to
+              a maximum of three nights due to my commitment to caring for
+              Pongo.
+              <br />
+              <br />I am excited to meet new furry friends and provide them with
+              the same level of care and attention that I give to my own pets.
+              Please feel free to contact me if you have any questions.
+            </div>
+            <br></br>
           </div>
-          <br></br>
-
-          <div className="aboutMe__size--image2"></div>
+          <div className="aboutMe__size--image222"></div>
         </div>
 
         <Footer />
