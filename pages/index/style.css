@@ -510,7 +510,7 @@ h3 {
 }
 @media screen and (max-width: 1275px) {
   .imagesRow {
-    max-width: 1050px;
+    width: 820px;
   }
   .imagesRow__size {
     width: 250px;
