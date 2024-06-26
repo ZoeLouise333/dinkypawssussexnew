@@ -10,26 +10,37 @@
   text-align: center;
   margin-top: -30px;
   font-size: 30px;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
 
 }
 .subTitle1 {
-  margin-top: 50px;
+  margin-top: 30px;
 font-size: 35px;
 color: #33414b;
 }
+.subbyTitle1 {
+  margin-top: 10px;
+font-size: 30px;
+color: #33414b;
+margin-bottom: 30px;
+}
 .subTitle2 {
-  margin-top: 7px;
+  margin-top: 20px;
 font-size: 35px;
 color: #33414b;
+margin-bottom: 30px;
+
 
 }
 .subTitle3 {
-  margin-top: 15px;
+  margin-top: 20px;
 font-size: 35px;
 color: #33414b;
+margin-bottom: 30px;
 }
-
+.groupSpace{
+  margin-top: 30px;
+}
 h4{ 
 
 
@@ -57,35 +68,65 @@ span {
 
 
 .catImage{
-  background-image: url(./images/poppy.jpg);
+  background-image: url(./images/catVisits.png);
   width: 400px;
-  height: 300px;
+  height: 450px;
   background-size: cover;
-  background-position: 0px -130px;
+  background-position: 0px 0px;
 }
-.dogImage{
-  background-image: url(./images/groupy.png);
-  width: 400px;
-  height: 630px;
+.dogImageA{
+  background-image: url(./images/groupA.png);
+  width: 330px;
+  height: 450px;
   background-size: cover;
-  background-position:-20px 0px;
+  background-position: 0px 0px;
   
 
 }
-.sitImage{
-  background-image: url(./images/hectors.png);
-  width: 400px;
-  height: 430px;
+.dogImageB{
+  background-image: url(./images/groupB.png);
+  width: 330px;
+  height: 450px;
   background-size: cover;
   background-position: 0px 0px;
+  
+
+}
+
+
+.dogImageC{
+  background-image: url(./images/groupC.png);
+  width: 330px;
+  height: 450px;
+  background-size: cover;
+  background-position: 0px 0px;
+  
+
+}
+.dogImageD{
+  background-image: url(./images/groupD.png);
+  width: 330px;
+  height: 450px;
+  background-size: cover;
+  background-position: 0px 0px;
+  
+
+}
+
+.sitImage{
+  background-image: url(./images/dogVisits.png);
+  width: 400px;
+  height: 450px;
+  background-size: cover;
+  background-position: 0px -30px;
 
 }
 .nightImage{
-  background-image: url(./images/mollyes\ 73.png);
-  width: 400px;
-  height: 620px;
+  background-image: url(./images/nightStay.png);
+  width: 490px;
+  height: 720px;
   background-size: cover;
-  background-position: -50px 0px;
+  background-position: -40px 0px;
 
 }
 .mb {
@@ -95,7 +136,15 @@ span {
   display: flex;
   flex-direction: column;
   padding: 20px;
-  width: 420px;
+  width: 650px;
+  font-weight: 100;
+  color: rgb(43, 43, 43);
+}
+.subSection222 {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  width: 350px;
   font-weight: 100;
   color: rgb(43, 43, 43);
 }
@@ -127,14 +176,41 @@ span {
   flex-direction: column;
   text-align: center;
   justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+margin-top: 50px;
+font-weight: lighter;
+
+
+
+
+}
+.subSection5 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-between;
  max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
-margin-top: 40px;
+margin-top: 0px;
 font-weight: lighter;
 
 
 }
+.subSection7 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-between;
+ max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+margin-top: -20px;
+font-weight: lighter;
+}
+
+
 .catSection{
   display: flex;
   flex-direction: row;
@@ -212,21 +288,6 @@ font-weight: lighter;
   flex-direction: row;
 }
 
-.bridalRow__size--image {
-  max-width: 900px;
-  width: 100%;
-  flex: 1;
-  height: 550px;
-  background-image: url("./images/puppy.jpg");
-  background-size: cover;
-  background-position: center;
-  margin-left: auto;
-  margin-right: auto;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  margin-top: 30px;
-  margin-bottom: 70px !important;
-}
 .bridalRow__column {
   max-width: 1200px;
   display: flex;
@@ -258,9 +319,10 @@ font-weight: lighter;
   background-color: #455763;
   width: 100%;
   margin-top: 40px;
+  height: 470px;
 }
 .pricing__text {
-  margin-top: 0px;
+  margin-top: 30px;
   max-width: 900px;
   display: flex;
   flex-direction: column;
@@ -277,7 +339,10 @@ font-weight: lighter;
   text-align: center;
 }
 
-
+.margt2 {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
 
 .ocassionRow {
   margin-top: 30px;
@@ -294,21 +359,7 @@ font-weight: lighter;
   padding-bottom: 0px;
 }
 
-.ocassionRow__size--image {
-  max-width: 900px;
-  width: 100%;
-  height: 500px;
-  flex: 1;
-  background-image: url("./images/7.jpg");
-  background-position: 0px -17px;
-  background-size: cover;
-  margin-left: auto;
-  margin-right: auto;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  margin-bottom: 90px;
-  margin-top: 40px;
-}
+
 .ocassionRow__column {
   max-width: 450px;
   display: flex;
@@ -337,21 +388,7 @@ font-weight: lighter;
   flex-direction: row;
 }
 
-.lessonRow__size--image {
-  width: 100%;
-  max-width: 900px;
-  flex: 1;
-  height: 600px;
-  background-image: url("./images/19.jpg");
-  background-size: cover;
-  background-position: center;
-  margin-left: auto;
-  margin-right: auto;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  margin-bottom: 40px;
-  margin-top: 20px;
-}
+
 .lessonRow__column {
   font-size: 17px;
   max-width: 450px;
@@ -555,3 +592,4 @@ font-weight: lighter;
     font-size: 25px !important;
   }
 }
+
