@@ -2,18 +2,19 @@ import Head from "next/head";
 import Header from "../../components/header";
 import Footer from "../../components/footer";
 import React, { useEffect, useState } from "react";
-import images from "../../constants/images";
 
 export default function Portfolio() {
   return (
     <>
       <Head>
-       <title>Dinky Paws | Uckfield Dog Walking | East Sussex</title>
+        <title>
+          Dinky Paws | Dog Walking | Cat Sitting | Uckfield | Sussex
+        </title>
       </Head>
 
       <Header />
       <div className="backgroundportfolio">
-        <div className="portfoliotitle">East Sussex Dogs and Cats</div>
+        <div className="portfoliotitle">Sussex Dogs and Cats</div>
         <div class="grid-wrapper">
           <div className="port onesus big"></div>
           <div className="port threesus tall"></div>
@@ -46,9 +47,11 @@ export default function Portfolio() {
           <div className="port thirtyonesus tall"></div>
           <div className="port twentyeightsus tall"></div>
           <div className="port twentythreesus"></div>
-          <div className="port twentyfoursus"></div>
+          <div className="port twentyfoursus "></div>
+
           <div className="port thirtythreesus tall"></div>
           <div className="port thirtyfoursus tall"></div>
+
           <div className="port fourtysixsus big"></div>
           <div className="port thirtyfivesus"></div>
           <div className="port thirtysixsus tall"></div>
@@ -57,20 +60,73 @@ export default function Portfolio() {
           <div className="port thirtyninesus tall"></div>
           <div className="port fourtysus tall"></div>
           <div className="port fourtytwosus tall "></div>
+
           <div className="port fourtyfoursus tall"></div>
           <div className="port fourtyfivesus tall"></div>
+
           <div className="port fourtysevensus tall"></div>
           <div className="port fourtyeightsus tall"></div>
           <div className="port fourtyonesus big"></div>
           <div className="port fourtyninesus tall"></div>
           <div className="port fiftysus tall"></div>
+
           <div className="port fiftyonesus tall"></div>
+
           <div className="port fiftytwosus tall"></div>
           <div className="port fiftythreesus tall"></div>
           <div className="port fourtythreesus"></div>
           <div className="port fiftyfoursus tall"></div>
+
           <div className="port fiftyfivesus tall"></div>
           <div className="port fiftysixsus tall"></div>
+          <div className="port fiftysevensus tall"></div>
+          <div className="port fiftyeightsus tall"></div>
+          <div className="port fiftyninesus tall"></div>
+          <div className="port sixtysus tall"></div>
+          <div className="port sixtyonesus tall"></div>
+          <div className="port sixtytwosus tall"></div>
+          <div className="port sixtythreesus tall"></div>
+          <div className="port sixtyfoursus tall"></div>
+          <div className="port sixtyfivesus tall"></div>
+          <div className="port sixtysixsus tall"></div>
+
+          <div className="port sixtysevensus tall"></div>
+          <div className="port sixtyeightsus tall"></div>
+
+          <div className="port sixtyninesus tall"></div>
+          <div className="port seventysus tall"></div>
+
+          <div className="port seventyonesus tall"></div>
+          <div className="port seventytwosus tall"></div>
+          <div className="port seventythreesus tall"></div>
+          <div className="port seventyfoursus tall"></div>
+          <div className="port seventyfivesus tall"></div>
+          <div className="port eightyninesus big"></div>
+          <div className="port seventysixsus"></div>
+          <div className="port seventysevensus tall"></div>
+          <div className="port seventyeightsus "></div>
+          <div className="port seventyninesus tall"></div>
+          <div className="port eightysus tall"></div>
+          <div className="port eightyonesus tall"></div>
+          <div className="port eightytwosus tall"></div>
+          <div className="port eightythreesus tall"></div>
+          <div className="port eightyfoursus  "></div>
+          <div className="port eightyfivesus tall"></div>
+          <div className="port eightysixsus tall"></div>
+          <div className="port eightysevensus tall"></div>
+          <div className="port eightyeightsus big"></div>
+          <div className="port ninetysus tall"></div>
+          <div className="port ninetyonesus tall"></div>
+          <div className="port ninetytwosus tall"></div>
+          <div className="port ninetythreesus tall"></div>
+          <div className="port ninetyfoursus tall"></div>
+          <div className="port ninetyfivesus "></div>
+          <div className="port ninetysixsus tall"></div>
+          <div className="port ninetysevensus tall"></div>
+          <div className="port ninetyninesus big"></div>
+          <div className="port ninetyeightsus tall"></div>
+
+          <div className="port onehundredsus tall"></div>
         </div>
         <br />
         <br />
@@ -120,4 +176,5 @@ export default function Portfolio() {
     </>
   );
 }
+
 
