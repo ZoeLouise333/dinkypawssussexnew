@@ -31,7 +31,7 @@ export default function Portfolio() {
               </div>
               <div class="subSection2 pink">
                 <h3 class="subTitle1"> GROUP DOG WALKING </h3>
-                <h3 class="subbyTitle1">£17 - 1 hour </h3>
+                <h3 class="subbyTitle1">£15 - 1 hour </h3>
                 <h5>* * *</h5>
 
                 <h5> * 1 hour of walking/ running/ playing *</h5>
