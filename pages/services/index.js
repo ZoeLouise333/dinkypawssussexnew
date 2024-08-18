@@ -68,7 +68,7 @@ export default function Portfolio() {
               <p>
                 <div className="bold of">Weekend + Bank Holiday Rates</div>
                 Dogs : Additional £10 per service/hour <br />
-                Cats : Additional £5 per service
+                Cats : Additional £3 per service
                 <br />
                 <br />
               </p>
@@ -95,9 +95,9 @@ export default function Portfolio() {
               <div class="subSection222  orange">
                 <h3 class="subTitle2">SOLO WALKS/VISITS</h3>
 
-                <h4> £25 - 1 hour / per hour</h4>
-                <h4>£21 - 45 minutes</h4>
-                <h4>£17 - 30 minutes</h4>
+                <h4> £20 - 1 hour / per hour</h4>
+                <h4>£17 - 45 minutes</h4>
+                <h4>£14 - 30 minutes</h4>
                 <h5>£10 - per additional dog</h5>
               </div>
               <div class="sitImage"></div>
@@ -119,12 +119,10 @@ export default function Portfolio() {
               <div class="nightImage"></div>
               <div class="subSection2 ssw blue34">
                 <h3 class="subTitle2">OVERNIGHT SITTING</h3>
-                <h4>£60 - 9pm till 7am</h4>
-                <h4>£10 - additional consecutive hours either side</h4>
-                <h4>£15 - additional non consecutive hour</h4>
+                <h4>£55 - 9pm till 7am</h4>
+                <h4>£5 - additional consecutive hours either side</h4>
+                <h4> non consecutive hours please enquire</h4>
                 <h4>£10 - per additional dog</h4>
-                <h4> 3 nights - friday/saturday/sunday only </h4>
-                <h4> week nights - one night only</h4>
                 <h5>* Please contact me for further information*</h5>
                 <h5>
                   Dogs can only be left up to 4 hours at a time under Dinky Paws
