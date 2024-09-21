@@ -77,6 +77,7 @@ export default function Portfolio() {
           <div className="port fourtythreesus"></div>
           <div className="port fiftyfoursus tall"></div>
 
+          <div className="port onehundseventeensus tall"></div>
           <div className="port fiftyfivesus tall"></div>
           <div className="port fiftysixsus tall"></div>
           <div className="port fiftysevensus tall"></div>
@@ -121,12 +122,32 @@ export default function Portfolio() {
           <div className="port ninetythreesus tall"></div>
           <div className="port ninetyfoursus tall"></div>
           <div className="port ninetyfivesus "></div>
+          <div className="port onehundfifteensus tall"></div>
           <div className="port ninetysixsus tall"></div>
           <div className="port ninetysevensus tall"></div>
           <div className="port ninetyninesus big"></div>
           <div className="port ninetyeightsus tall"></div>
-
           <div className="port onehundredsus tall"></div>
+          <div className="port onehundonesus tall"></div>
+          <div className="port onehundtwosus tall"></div>
+          <div className="port onehundsixteensus "></div>
+          <div className="port onehundthreesus tall"></div>
+          <div className="port onehundfoursus tall"></div>
+          <div className="port onehundfivesus tall"></div>
+          <div className="port onehundsixsus tall"></div>
+          <div className="port onehundsevensus tall"></div>
+          <div className="port onehundeightsus tall"></div>
+          <div className="port onehundninesus "></div>
+          <div className="port onehundtensus tall"></div>
+          <div className="port onehundelevensus big"></div>
+          <div className="port onehundtwelvesus tall"></div>
+          <div className="port onehundthirteensus tall"></div>
+          <div className="port onehundfourteensus tall"></div>
+
+          <div className="port onehundeighteensus tall"></div>
+          <div className="port onehundnineteensus tall"></div>
+          <div className="port onehundtwentysus big"></div>
+          <div className="port onehundtwentyonesus tall"></div>
         </div>
         <br />
         <br />
@@ -176,5 +197,4 @@ export default function Portfolio() {
     </>
   );
 }
-
 
