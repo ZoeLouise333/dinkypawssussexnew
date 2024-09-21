@@ -433,10 +433,75 @@ img {
  
  
 }
+.onehundonesus {
+  background-image: url(./images/dottyy.png);
+}
+.onehundtwosus {
+  background-image: url(./images/tillyy.png);
+}
+.onehundthreesus {
+  background-image: url(./images/benjii.png);
+}
 
-
-
-
+.onehundfoursus {
+  background-image: url(./images/winniee.png);
+}
+.onehundfivesus {
+  background-image: url(./images/simbaa.png);
+}
+.onehundsixsus {
+  background-image: url(./images/buddyy.png);
+}
+.onehundsevensus {
+  background-image: url(./images/blu.png);
+}
+.onehundeightsus {
+  background-image: url(./images/vinniee.png);
+}
+.onehundninesus {
+  background-image: url(./images/max.png);
+  background-position: 0px -120px;
+}
+.onehundtensus {
+  background-image: url(./images/abe.png);
+}
+.onehundelevensus {
+  background-image: url(./images/nellie.png);
+  background-position: 0px -250px;
+}
+.onehundtwelvesus {
+  background-image: url(./images/hugo.png);
+}
+.onehundthirteensus {
+  background-image: url(./images/lunaa.png);
+}
+.onehundfourteensus {
+  background-image: url(./images/chick1.png);
+}
+.onehundfifteensus {
+  background-image: url(./images/chick2.png);
+}
+.onehundsixteensus {
+  background-image: url(./images/chick3.png);
+  background-position: 0px -100px;
+}
+.onehundseventeensus {
+  background-image: url(./images/chick4.png);
+}
+.onehundeighteensus {
+  background-image: url(./images/mollyy.png);
+ 
+}
+.onehundnineteensus {
+  background-image: url(./images/mablee.png);
+}
+.onehundtwentysus {
+  background-image: url(./images/judy.png);
+  background-position: 0px -250px;
+}
+.onehundtwentyonesus {
+  background-image: url(./images/wilbur.png);
+}
 
 /*SOMERSET*/
 .onesom{
